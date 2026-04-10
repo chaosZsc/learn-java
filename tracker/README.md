@@ -4,19 +4,13 @@
 
 ## 快速开始
 
-### 1. 安装依赖
-
-```bash
-npm install
-```
-
-### 2. 生成数据
+### 1. 生成数据
 
 ```bash
 node tracker/scripts/build-data.js
 ```
 
-### 3. 打开页面
+### 2. 打开页面
 
 ```bash
 # 方式1：直接打开文件
