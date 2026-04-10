@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java后端学习追踪</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="app">
+        <header class="header">
+            <h1>Java后端学习追踪</h1>
+            <div class="overall-progress">
+                <span>总体进度</span>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="overall-progress-bar"></div>
+                </div>
+                <span id="overall-progress-text">0%</span>
+            </div>
+        </header>
+
+        <div class="main-container">
+            <aside class="sidebar">
+                <nav class="phase-nav" id="phase-nav"></nav>
+                <div class="quick-stats" id="quick-stats"></div>
+            </aside>
+
+            <main class="main-area">
+                <div class="week-grid" id="week-grid"></div>
+            </main>
+
+            <aside class="detail-panel" id="detail-panel">
+                <p class="placeholder">点击左侧卡片查看详情</p>
+            </aside>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
