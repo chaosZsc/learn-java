@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const { marked } = require('marked');
 
 const ROOT_DIR = path.resolve(__dirname, '../..');
 const OUTPUT_FILE = path.join(ROOT_DIR, 'tracker/js/data.js');
